@@ -1,3 +1,1 @@
-wtf
-1-day project!?!??!?!
-It was too eez.
+idk what am i doing :)
