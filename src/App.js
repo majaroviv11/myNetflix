@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 import Row from './Row'
 import requests from './requests'
-import Banner from './Banner'
-import Nav from './Navbar'
+import Banner from './banner/Banner'
+import Nav from './Navbar/Navbar'
 
-import './App.css'
+import './App.scss'
 
 class App extends Component {
 	render() {

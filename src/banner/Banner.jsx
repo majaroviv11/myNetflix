@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
-import axios from './axios'
-import requests from './requests'
-import './Banner.css'
+import axios from '../axios/axios'
+import requests from '../requests'
+import './Banner.scss'
 
 const Banner = props => {
 	const [movie, setMovie] = useState([])
@@ -43,8 +43,8 @@ const Banner = props => {
 						: 'Please reload the page!'}
 				</h1>
 				<div className='banner__buttons'>
-					<button className='banner__button'>Play</button>
-					<button className='banner__button'>My List</button>
+					<button className='banner__button'>Играть</button>
+					<button className='banner__button'>Мой список</button>
 				</div>
 				<h1 className='banner__description'>
 					{truncate(`${movie ? movie.overview : ''}`, 150)}

@@ -15,6 +15,7 @@
 	left: 20px;
 	width: 80px;
 	object-fit: contain;
+	cursor: pointer;
 }
 
 .nav__avatar {
@@ -22,8 +23,16 @@
 	right: 20px;
 	width: 30px;
 	object-fit: contain;
+	cursor: pointer;
 }
 
 .nav__black {
 	background-color: black;
+}
+
+.nav__search {
+	margin-left: 1600px;
+	cursor: text;
+	border-radius: 12px;
+	background-color: whitesmoke;
 }
