@@ -1,20 +1,19 @@
 .media-slider {
-  color: white;
-  padding-top: 30px;
+	color: white;
+	padding-top: 30px;
 
-  &__title {
-    margin-top: 0;
-    padding: 0 20px;
-  }
+	&__title {
+		margin-top: 0;
+		padding: 0 20px;
+	}
 
-  &__cards {
-    display: flex;
-    overflow-x: scroll;
-    padding: 10px;
+	&__cards {
+		display: flex;
+		overflow-x: scroll;
+		padding: 10px;
 
-    &::-webkit-scrollbar {
-      // Hides scrollbar in horizontal slider
-      display: none;
-    }
-  }
+		&::-webkit-scrollbar {
+			display: none;
+		}
+	}
 }
