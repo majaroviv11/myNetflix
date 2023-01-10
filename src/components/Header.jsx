@@ -20,7 +20,7 @@ const Nav = () => {
 	return (
 		<div className={`nav ${show && 'nav__black'}`}>
 			<img src={logo} alt='Netflix Logo' className='nav__logo' />
-
+			<input className='searchBar' placeholder='искать' />
 			<img src={avatar} alt='Profile image' className='nav__avatar' />
 		</div>
 	)

@@ -3,7 +3,7 @@
 	top: 0;
 	width: 100%;
 	padding: 20px;
-	height: 30px;
+	height: 60px;
 	z-index: 1;
 	justify-content: space-between;
 	transition-timing-function: ease-in;
@@ -12,20 +12,30 @@
 
 .nav__logo {
 	position: fixed;
-	left: 20px;
-	width: 80px;
 	top: 0;
+	left: 20px;
+	width: 125px;
 	object-fit: contain;
 }
 
 .nav__avatar {
 	position: fixed;
-	top: 0;
+	top: -1;
 	right: 20px;
-	width: 30px;
+	width: 38px;
 	object-fit: contain;
 }
 
 .nav__black {
-	background-color: black;
+	background-color: #222;
+}
+
+.searchBar {
+	position: fixed;
+	top: 25px;
+	width: 45px;
+	object-fit: contain;
+	border-radius: 6px;
+	background-color: wheat;
+	border: 1px;
 }
